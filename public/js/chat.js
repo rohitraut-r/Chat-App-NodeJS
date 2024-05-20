@@ -12,7 +12,7 @@ const messageTemplate = document.querySelector('#message-template').innerHTML;
 const urlTemplate = document.querySelector('#url-template').innerHTML;
 
 //options
-const {username, room} = qs.parse(location.search, {ignoreQueryPrefix: true})
+const {username, room} = Qs.parse(location.search, {ignoreQueryPrefix: true})
 
 
 socket.on("message", (message) => {
