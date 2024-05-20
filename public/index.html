@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join Room</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+  </head>
+  <body class="bg-gray-800 text-white flex items-center justify-center min-h-screen">
+    <div class="bg-gray-900 p-8 rounded-lg shadow-lg max-w-md w-full">
+        <h1 class="text-3xl font-bold mb-6 text-center">Join Room</h1>
+        <form action="/chat.html" class="space-y-4">
+            <div>
+                <label for="username" class="block text-sm font-medium text-gray-300">Display Name</label>
+                <input type="text" name="username" id="username" placeholder="Display Name" required class="mt-1 block w-full p-3 rounded-md bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+            <div>
+                <label for="room" class="block text-sm font-medium text-gray-300">Room</label>
+                <input type="text" name="room" id="room" placeholder="Room" required class="mt-1 block w-full p-3 rounded-md bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+            <div>
+                <button type="submit" class="w-full p-3 rounded-md bg-blue-500 hover:bg-blue-600 transition duration-200 font-bold text-white">Join</button>
+            </div>
+        </form>
+    </div>
+  </body>
+</html>
