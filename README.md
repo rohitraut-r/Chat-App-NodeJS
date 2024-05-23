@@ -39,19 +39,8 @@ The app will be running at `http://localhost:3000`.
 ## Usage
 
 1. Navigate to `http://localhost:3000` in your web browser.
-2. Register a new account or login if you have an existing account.
-3. Join or create a chat room.
-4. Start sending and receiving real-time messages.
-
-## Contributing
-
-Contributions are welcome! Please follow the standard GitHub workflow:
-
-1. Fork the repository
-2. Create a new branch for your feature or bug fix
-3. Commit your changes
-4. Push to the branch
-5. Open a pull request
+2. Join or create a chat room.
+3. Start sending and receiving real-time messages.
 
 ## License
 
